@@ -23,7 +23,7 @@ const app = express();
 
 
 
-aapp.use(cors({
+app.use(cors({
   origin: [
     "http://localhost:3000",
     "https://workforce360-frontend.vercel.app/"
