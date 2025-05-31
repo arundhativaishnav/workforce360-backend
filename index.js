@@ -26,7 +26,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://workforce360-frontend.vercel.app/"
+    "https://workforce360-frontend.vercel.app"
   ],
   credentials: true
 }));
