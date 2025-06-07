@@ -1,6 +1,11 @@
 import Department from "../Models/department.js";
 import mongoose from "mongoose";
 import User from "../Models/User.js";
+import Employee from "../Models/Employee.js";
+import Leave from "../Models/Leave.js";
+import Salary from "../Models/salary.js";
+import Attendance from "../Models/Attendence.js";
+import Notification from "../Models/Notifications.js";
 
 
 
@@ -120,11 +125,7 @@ const updateDepartment = async (req, res) => {
     }
   };
 
-import Employee from "../Models/Employee.js";
-import Leave from "../Models/Leave.js";
-import Salary from "../Models/salary.js";
-import Attendance from "../Models/Attendence.js";
-import Notification from "../Models/Notifications.js";
+
 
 const deleteDepartment = async (req, res) => {
   try {
